@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/PlikiVHDL/SterownikWindy/WindaTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="windatest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/windatest/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/floor_req" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">floor_req[4:0]</obj_property>
+      <obj_property name="ObjectShortName">floor_req[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/open_btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">open_btn</obj_property>
+      <obj_property name="ObjectShortName">open_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/close_btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">close_btn</obj_property>
+      <obj_property name="ObjectShortName">close_btn</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/alarm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alarm</obj_property>
+      <obj_property name="ObjectShortName">alarm</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffaa7f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff5a5d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/floor_reached" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">floor_reached</obj_property>
+      <obj_property name="ObjectShortName">floor_reached</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/stan" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stan</obj_property>
+      <obj_property name="ObjectShortName">stan</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/next_stan" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_stan</obj_property>
+      <obj_property name="ObjectShortName">next_stan</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/door_timer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">door_timer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">door_timer[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/move_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">move_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">move_cnt[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/target_floor" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">target_floor[2:0]</obj_property>
+      <obj_property name="ObjectShortName">target_floor[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/req_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">req_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/uut/floor_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">floor_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">floor_reg[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/cur_floor" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cur_floor[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_floor[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/motor_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">motor_on</obj_property>
+      <obj_property name="ObjectShortName">motor_on</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#000080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/motor_dir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">motor_dir</obj_property>
+      <obj_property name="ObjectShortName">motor_dir</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/door_state" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">door_state</obj_property>
+      <obj_property name="ObjectShortName">door_state</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/display" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display</obj_property>
+      <obj_property name="ObjectShortName">display</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/alarm_led" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alarm_led</obj_property>
+      <obj_property name="ObjectShortName">alarm_led</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/windatest/error_led" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error_led</obj_property>
+      <obj_property name="ObjectShortName">error_led</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaaaff</obj_property>
+   </wvobject>
+</wave_config>
